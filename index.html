@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jaideep">
+    <title>ROBOUT'24</title>
+    <link rel="shortcut icon" href="./img/logo.ico?v=1" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ?v=1 ==>> To remove browser cache -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <!-- <script src="https://use.fontawesome.com/7c0b3ec4f2.js"></script> -->
+    <script src="scripts/scripts.js"></script>
+    <style>
+        .wow {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="event-details 1-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="1" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Robo Soccer</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/robo soccer.JPG" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Boot up, power on, and get ready to score big"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 12,000/-*</p>
+                            <p>2nd Prize: INR 8,000/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="RoboSoccerbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 2-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="2" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Robo race</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/roborace.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Syncing Speed with Style:Your Road to Seamless Journeys!"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 6,000/-*</p>
+                            <p>2nd Prize: INR 4,000/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="RoboRacebtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 3-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="3" aria-hidden="true"></i>
+            <div class="details">
+                <h1>LFR(LINE FOLLOWER)</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/linefollower.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Precision in Every Turn, the Robots that Navigate the Future!"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 6,000/-*</p>
+                            <p>2nd Prize: INR 4,000/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="LineFollowerbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 4-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="4" aria-hidden="true"></i>
+            <div class="details">
+                <h1>THUG OF WAR</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/thugofwar.png" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Where Strength Unites, Power Competes, and Victory Prevails!"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 12,000/-*</p>
+                            <p>2nd Prize: INR 8,000/-*</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="TugOfWarbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 5-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="5" aria-hidden="true"></i>
+            <div class="details">
+                <h1>ALL Terrain</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/all terrain.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Unleash the fun in rough terrains."
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 6,000/-*</p>
+                            <p>2nd Prize: INR 4,000/-*</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="AllTerrainbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 6-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="6" aria-hidden="true"></i>
+            <div class="details">
+                <h1>FPV Drone</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img style="height:90%" src="./img/fpv drone.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 499/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Unleash the skies, conquer the heights."
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 25,000/-*</p>
+                            <p>2nd Prize: INR 0/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="FPVbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 7-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="6" aria-hidden="true"></i>
+            <div class="details">
+                <h1>ROBO  SUMO</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img style="height:90%" src="./img/robosumo.png" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>₹ 299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Pushing Boundaries, Not Opponents: Robo Sumo, where Might Meets Microchips"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 10,000/-*</p>
+                            <p>2nd Prize: INR 5,000/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="RoboSumobtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 8-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="6" aria-hidden="true"></i>
+            <div class="details">
+                <h1>PICK & PLACE</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img style="height:90%" src="./img/pick&place.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Tecnical Event</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Rs.299/-</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>4 "But only 2 people are allowed in arena"</td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            "Precision in Motion, Perfection in Placement"
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 12000/-*</p>
+                            <p>2nd Prize: INR 8000/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="PandPbtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <section id="landing-section">
+        <div class="landing">
+            <video autoplay muted loop id="video-background" playsinline>
+                <source src="img/mainvid.mp4" type="video/mp4">
+            </video>
+            <div class="logo">
+                <img src="img/MLRITM LOGO 1.png" class="mlritm-logo" style="width:400px; transform:translateY(32px)" alt="Brainware">
+                <img src="img/robout.png" class="mlritm-logo" style="width:400px; transform:translateY(5px)" alt="Brainware">
+                <!-- <h1>ROBOUT</h1>
+                <h3>2K24</h3>-->
+            </div>
+            <div class="darkness"></div>
+            <i class="fa fa-chevron-down fa-3x go-down" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section class="" id="events-section">
+        <div class="container footer">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">EVENTS</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Some exciting events that are taking place</h4>
+                <hr>
+                <div class="events">
+                    <div eventNo="1" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/robo soccer.JPG">
+                                <div class="headText">
+                                    <p>Robo soccer</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/robo soccer.JPG" >
+                                <div class="eventName">
+                                    <p>Robo soccer</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="2" data-wow-duration="1s" class="event wow fadeInDown">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/roborace.jpg" >
+                                <div class="headText">
+                                    <p>Robo race</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/roborace.jpg">
+                                <div class="eventName">
+                                    <p>Robo race</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="3" data-wow-duration="1s" class="event Right wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/linefollower.jpg" >
+                                <div class="headText">
+                                    <p>LFR (Line Follower)</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/linefollower.jpg" >
+                                <div class="eventName">
+                                    <p>LFR (Line Follower)</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="4" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/thugofwar.png" >
+                                <div class="headText">
+                                    <p>Thug of War</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/thugofwar.png" >
+                                <div class="eventName">
+                                    <p>Thug of War</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="5" data-wow-duration="1s" class="event wow fadeInUp">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/all terrain.jpg" >
+                                <div class="headText">
+                                    <p>All Terrain</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/all terrain.jpg" >
+                                <div class="eventName">
+                                    <p>All Terrain</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="6" data-wow-duration="1s" class="event wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/fpv drone.jpg">
+                                <div class="headText">
+                                    <p>FPV Drone</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/fpv drone.jpg" >
+                                <div class="eventName">
+                                    <p>FPV Drone</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="7" data-wow-duration="1s" class="event wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/robosumo.png" >
+                                <div class="headText">
+                                    <p>Robo Sumo</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/robosumo.png" >
+                                <div class="eventName">
+                                    <p>ROBO SUMO</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="8" data-wow-duration="1s" class="event wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/pick&place.jpg" >
+                                <div class="headText">
+                                    <p>Pick & Place</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/pick&place.jpg" >
+                                <div class="eventName">
+                                    <p>PICK & PLACE</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="about-section">
+        <div class="container footer">
+            <h1 class="headline-section wow jackInTheBox">ABOUT</h1>
+            <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">The Robout</h4>
+            <hr>
+            <div>
+                <h1 class="added-section wow jackInTheBox">VISION</h1>
+                <p class= "version" >"To be a leading center of innovation and excellence in the field of robotics and automation, pioneering advancements that benefit stakeholders of MLRITM, society, industry, and technology."</p>
+            </div>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/1.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>2016</h5>
+                    <h5>RAL(Robotics and Automation Lab)</h5>
+                    <p>
+                        Established in 2016, RAL pioneers robotics and automation technology. 
+                        Our culture fosters innovation, collaboration, and diversity. We aim to revolutionize industries, enhance human capabilities, and drive progress. 
+                        Join us in shaping the future of robotics and automation. Explore endless possibilities with RAL.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInLeft about-box">
+                <div class="about-img">
+                    <img src="./img/about/2.jpg" alt="about">
+                </div>
+            <div class="about-content">
+                    <h5>2024</h5>
+                    <h5>Indefatigable journey of 8 years</h5>
+                    <p>
+                        At RAL, we're pioneers in robotics and automation. 
+                        With state and national victories, including IIT Hyderabad, CBIT, and Sreenidhi fests, 
+                        we redefine possibilities. Our commitment to excellence drives innovation, transforming industries.
+                         Join us to explore technology's power and the thrill of success. Welcome to RAL, where greatness knows no limits.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/3.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>Robout'24</h5>
+                    <h5>An annual technical event</h5>
+                    <p>
+                        Get ready for Robout 2k24 Fest, where cutting-edge robotics takes center stage! 
+                        From robo cars to sumo battles, our event features thrilling competitions that ignite innovation.
+                        Join professionals, enthusiasts, and students alike in a celebration of technology and collaboration.
+                        Get ready for a dynamic and inspiring experience at Robout Annual Robo Fest!
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/4.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>Robout'24</h5>
+                    <h5>WINNER AND RUNNER UP LIST</h5>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="winner">
+                <div class="event-jai">
+                    <h5>Robo Car</h5>
+                    <ul>
+                        <li>Winner: Chennai Bulls Prize Money: 6000/-</li>
+                        <li>Runner-up: Uvira Prize Money: 4000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>Tug Of War</h5>
+                    <ul>
+                        <li>Tie break: Titan Bots & Team KYB Prize Poll: 20000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>Soccer</h5>
+                    <ul>
+                        <li >Winner: Titan bots Prize Money: 12000/-</li>
+                        <li >Runner-up: uvira Prize Money: 8000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>Robo sumo</h5>
+                    <ul>
+                        <li >Winner: Team KYB Prize Money: 10000/-</li>
+                        <li >Runner-up: Titan bots Prize Money:5000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>Drone</h5>
+                    <ul>
+                        <li >Winner: Zephaniya Prize Money: 25000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>All terrain</h5>
+                    <ul>
+                        <li >Winner: sharif Prize Money: 6000/-</li>
+                        <li >Runner-up: varshitha Prize Money: 4000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>Pick & place</h5>
+                    <ul>
+                        <li >Winner: P. Nikhil Prize Money: 6000/-</li>
+                        <li >Runner-up: Abhishek Prize Money: 4000/-</li>
+                    </ul>
+                </div>
+                <div class="event">
+                    <h5>LFR</h5>
+                    <ul>
+                        <li >Winner: Dinesh Prize Money: 6000/-</li>
+                        <li >Runner-up: Vamshi Prize Money: 4000/-</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="" id="team-section">
+        <div class="container footer">
+            <h1 class="headline-section wow jackInTheBox">OUR AMAZING TEAM</h1>
+            <!-- <h4 class="subline-section">Teacher & Co-ordinators</h4> -->
+            <hr>
+            <div class="wow slideInRight team-members">
+                <h4>CONVENER</h4>
+                <div class="team-member">
+                    <h5>Dr. G. Amarnath</h5>
+                    <p>President - RAL</p>
+                    <div class="about-blank"></div>
+                </div>
+                <h4>STUDENT CO-ORDINATORS</h4>
+                <div class="team-member">
+                    <h5>S. Sachin</h5>
+                    <p>President - RAL</p>
+                    <u>+916303583681</u>
+                </div>
+                <div class="team-member">
+                    <h5>J. Jaideepsai </h5>
+                    <p>Core Member - RAL</p>
+                    <u>+919492633516</u>
+                </div>
+                <div class="team-member">
+                    <h5>K. Zephaniya</h5>
+                    <p>Core Member - RAL</p>
+                    <u>+919391148040</u>
+                </div>
+                <div class="team-member">
+                    <h5>P. Nikhil</h5>
+                    <p>Core Member - RAL</p>
+                    <u>+916305228236</u>
+                </div>
+                <div class="team-member">
+                    <h5>P. Vaishnavi</h5>
+                    <p>Core Member - RAL</p>
+                    <u>+917386904609</u>
+                </div>
+                <div class="team-member">
+                    <h5>C. Srujana</h5>
+                    <p>Core Member - RAL</p>
+                    <u>+917995112231</u>
+                </div>
+                <div class="team-member">
+                    <h5>U. Amulya</h5>
+                    <p>Core Member - RAL</p>
+                    <u>+918886063950</u>
+                </div>
+                
+            </div>
+            <div class="wow slideInLeft team-members">
+                <h4>EVENT CO-ORDINATORS</h4>
+                <!-- <p>THE PEOPLE WHO MANAGED RELATIONS WITH SPONSERS</p> -->
+                <div class="team-member">
+                    <h5>P. Vaishnavi</h5>
+                    <p>LFR Co-ordinator</p>
+                    <u>+917386904609</u>
+                </div>
+                <div class="team-member">
+                    <h5>V. Amulya</h5>
+                    <p>Pick&Place Co-ordinator</p>
+                    <u>+918886063950</u>
+                </div>
+                <div class="team-member">
+                    <h5>M. Chandraprakash</h5>
+                    <p>All Terrain Co-ordinator</p>
+                    <u>+917729944264</u>
+                </div>
+                <div class="team-member">
+                    <h5>P. Nikhil</h5>
+                    <p>Robo Soccer Co-ordinator</p>
+                    <u>+916305228236</u>
+                </div>
+                
+                <div class="team-member">
+                    <h5>A. Dileep</h5>
+                    <p>Robo Sumo Co-ordinator</p>
+                    <u>+917569453241</u>
+                </div>
+                <div class="team-member">
+                    <h5>J. Jaideepsai</h5>
+                    <p>FPV Drone Co-ordinator</p>
+                    <u>+919492633516</u>
+                </div>
+                <div class="team-member">
+                    <h5>B. Naveen</h5>
+                    <p>RoboRace Co-ordinator</p>
+                    <u>+919550107630</u>
+                </div>
+                <div class="team-member">
+                    <h5>A. Jaya Prakash</h5>
+                    <p>Tug Of War Co-ordinator</p>
+                    <u>+919848756959</u>
+                </div>
+            </div>
+            <div class="wow slideInRight team-members">
+                <h4>WEB DEVELOPMENT</h4>
+                <!-- <p>THE PEOPLE WHO DEVELOPED THIS WEBSITE AND OTHER CREATIVE STUFF</p> -->
+                <div class="team-member">
+                        <h5>J. Jaideepsai</h5>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="team-member">
+                        <h5>S. Ritheesh</h5>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="team-member">
+                        <h5>K. Zephaniya</h5>
+                    <p>Designer & Editor</p>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <section class="" id="contact-section">
+        <div class="container footer">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">CONTACT US</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Get in touch with us</h4>
+                <hr>
+                <div class="contact-areas">
+                    <div class="contact-area wow fadeInRight" data-wow-offset="75">
+                        <h5>
+                            OUR LOCATION
+                            <i class="fa fa-map-marker"></i>
+                        </h5>
+                        <p>
+                            <i class="fa fa-phone" aria-hidden="true"></i> +91-6303583681
+                            <br>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> robout@mlritm.ac.in
+                        </p>
+
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.0796025595882!2d78.41497617493987!3d17.598954483324757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8ecff7ce096d%3A0xb155107b0b2be21!2sMarri%20Laxman%20Reddy%20Institute%20of%20Technology%20and%20Management!5e0!3m2!1sen!2sin!4v1706522147368!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map" ></iframe>
+
+<!-- 
+                            <iframe src="https://www.google.com/maps/place/Marri+Laxman+Reddy+Institute+of+Technology+and+Management/@17.5989545,78.4175511,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb8ecff7ce096d:0xb155107b0b2be21!8m2!3d17.5989545!4d78.4175511!16s%2Fg%2F1261f1qlw?entry=ttu"
+                                class="map" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="wow fadeInUp" data-wow-offset="0">
+        <div class="end-footer">
+            <div style="line-height: 40px;">
+                Copyright © 2024-25
+                <a class="name" href="https://www.mlritm.ac.in/">MLRITM</a>
+            </div>
+            <div>
+                <a class="socialBtn" target="_blank" href="https://www.facebook.com/ral.sahara/">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="socialBtn" href="mailto:robout@mlritm.ac.in">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a class="socialBtn" href="https://www.instagram.com/robotics_ral/">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const wowConfig = {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: window.innerWidth <= 750 ? 0 : 50,
+            mobile: false,
+            live: true,
+            scrollContainer : null
+        }
+        const wow = new WOW(wowConfig);
+        wow.init();
+        const registerUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSeTHOdWfpHnwtRQFXpPcqgI6v5YsssrRL-99qTYZNaZC3cL-Q/viewform?usp=sf_link';
+        const LineFollowerUrl = 'https://drive.google.com/file/d/1S8yOGian6OExngN9PK0kzZD1OQCUaGyF/view?usp=drive_link';
+        const AllTerrainUrl = 'https://drive.google.com/file/d/1z9vmpzxeQmfA9DUvxEOr77lJOLAiWmfA/view?usp=drive_link';
+        const FPVUrl = 'https://drive.google.com/file/d/1GLTrwPPkYClm8CVCUL_EJVl4_vfzXsOl/view?usp=drive_link';
+        const TugOfWarUrl = 'https://drive.google.com/file/d/16o4PI1jvFjOq-GMmLVvLmWyrXV5JAAB_/view?usp=drive_link.';
+        const RoboRaceUrl = 'https://drive.google.com/file/d/1dprqX13TyalJbuuu7e6sEPBbXeV3xAj_/view?usp=drive_link';
+        const PandPUrl = 'https://drive.google.com/file/d/12ji1RLO4PEoxUDyk8kB961LCm-a-znrW/view?usp=drive_link';
+        const RoboSumoUrl = 'https://drive.google.com/file/d/11VMkvMEoY1k_oG9aAqgyrVKcwx90CLeX/view?usp=drive_link';
+        const RobosoccerUrl = 'https://drive.google.com/file/d/14F73B7XGk5trq0dv49DqOQd1m96TDcAy/view?usp=drive_link';
+        const eventDate = '23.02.2024';
+
+        document.getElementById('AllTerrainbtn').onclick = () => window.open(AllTerrainUrl, '_blank');
+        document.getElementById('LineFollowerbtn').onclick = () => window.open(LineFollowerUrl, '_blank');
+        document.getElementById('FPVbtn').onclick = () => window.open(FPVUrl, '_blank');
+        document.getElementById('TugOfWarbtn').onclick = () => window.open(TugOfWarUrl, '_blank');
+        document.getElementById('RoboRacebtn').onclick = () => window.open(RoboRaceUrl, '_blank');
+        document.getElementById('RoboSoccerbtn').onclick = () => window.open(RobosoccerUrl, '_blank');
+        document.getElementById('PandPbtn').onclick = () => window.open(PandPUrl, '_blank');
+        document.getElementById('RoboSumobtn').onclick = () => window.open(RoboSumoUrl, '_blank');
+
+        [...document.getElementsByClassName('RegisterBtn')].forEach(e =>
+            e.onclick = () => window.open(registerUrl, '_blank'));
+
+        [...document.getElementsByClassName('dateEvent')].forEach(e => {
+            e.innerHTML = eventDate;
+        });
+    </script>
+
+</body>
+
+
+</html>
